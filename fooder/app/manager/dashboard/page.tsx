@@ -9,6 +9,7 @@ import Pizza from '@/public/image/Pizza.jpg'
 import Shusi from '@/public/image/Shusi.jpg'
 
 
+
 const foodItems = [
     { id: 1, name: 'Sushi', price: '$12', image: Shusi },
     { id: 2, name: 'Burger', price: '$8', image: Burger },
@@ -22,7 +23,7 @@ const DashboardPage = () => {
     const addToCart = (item: { id: number; name: string; price: string; image: any }) => {
         setCart([...cart, item]);
     };
-
+          
     return (
         <div className="min-h-screen bg-gray-100 p-6">
             <header className="flex justify-between items-center bg-white p-4 rounded-lg shadow-md">
