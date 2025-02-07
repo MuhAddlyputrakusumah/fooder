@@ -3,8 +3,8 @@
 import { ReactNode, useState } from "react"
 import Image from "next/image"
 import MenuItem from "./menuItem"
-import Logo from '../../public/image/restaurant.jpg'
-import Profile from '../../public/image/profile.jpg'
+import Logo from '../../public/image/Logo.png'
+import Profile from '../../public/image/Manager.png'
 
 
 type MenuType = {
@@ -83,20 +83,19 @@ const Sidebar = ({ children, id, title, menuList }: ManagerProp) => {
                {/* end close button */}
 
                {/* logo section */}
+               {/* Logo Atas */}
                <div className="mb-3 w-full flex justify-center">
                    <div className="flex items-center space-x-2">
-                       <Image src={Logo} alt="Logo" width={40} height={40} />
-                       <h1 className="text-2xl font-bold text-orange-500">Fooder</h1>
+                       <Image src={Logo} alt="Logo" width={90} height={90} />
+                       <h1 className="text-2xl font-bold text-orange-500">Food Store</h1>
                    </div>
                </div>
                {/* end logo section */}
 
                {/* user section */}
-               <div className="w-full mt-10 mb-6 bg-primary text-black p-3 flex gap-2 items-center">
-                   <Image src={Profile} alt="Profile" width={40} height={40} className="rounded-full" />
-                   <div className="text-sm font-semibold">
-                       Manager Name
-                   </div>
+               <div className="w-full mt-10 mb-6 bg-primary text-black p-3 justify-center flex gap-2 items-center">
+                   <Image src={Profile} alt="Profile" width={90} height={90}  className="rounded-full" />
+                  {/* Logo Bawah */}
                </div>
                {/* end user section */}
 
