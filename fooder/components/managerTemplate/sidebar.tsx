@@ -63,14 +63,13 @@ const Sidebar = ({ children, id, title, menuList }: ManagerProp) => {
             {/* end header section */}
 
             {/* content section */}
-           <div className="p-4">
-               {children}
-           </div>
-           {/* end content section */}
+            <div>
+                {children}
+            </div>
+            {/* end content section */}
 
-          { /* sidebar section */}
-           <div className={`flex flex-col w-2/3 md:w-1/2 lg:w-1/4 h-full fixed top-0 right-full transition-transform z-50
-           bg-white border-r border-primary ${isShow ? `translate-x-full` : ``}`}>
+            { /* sidebar section */}
+            <div className={`flex flex-col w-2/3 md:w-1/2 lg:w-1/4 h-full fixed top-0 right-full transition-transform z-50 bg-white border-r border-primary ${isShow ? `translate-x-full` : ``}`}>
 
                 {/* close button */}
                 <div className="ml-auto p-2">
