@@ -63,9 +63,9 @@ function DashboardPage() {
                 </div>
 
                 <div className="mt-4 mb-6 flex justify-center space-x-4">
-                    <Link href={`/menu`} className={`text-abu ${!category ? 'font-bold' : ''}`}>All</Link>
-                    <Link href={`/menu?category=makanan`} className={`text-abu ${category === 'makanan' ? 'font-bold' : ''}`}>Makanan</Link>
-                    <Link href={`/menu?category=minuman`} className={`text-abu ${category === 'minuman' ? 'font-bold' : ''}`}>Minuman</Link>
+                    <Link href={`./transaksi`} className={`text-abu ${!category ? 'font-bold' : ''}`}>All</Link>
+                    <Link href={`./transaksi?category=makanan`} className={`text-abu ${category === 'makanan' ? 'font-bold' : ''}`}>Makanan</Link>
+                    <Link href={`./transaksi?category=minuman`} className={`text-abu ${category === 'minuman' ? 'font-bold' : ''}`}>Minuman</Link>
                 </div>
 
                 <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12 md:gap-16 place-items-center'>
