@@ -10,8 +10,21 @@ export default {
     extend: {
       colors: {
         background: "var(--background)",
-        foreground: "var(--foreground)",
+        background2: "#f2f2f2",
+        primary: "#ce1212",
+        abu: "#69718e"
+
       },
+      fontFamily: {
+        "amatic" :["Amatic SC", "serif"],
+        "roboto" : ["Roboto", "serif"]
+      },
+      textColor : {
+        "dasar1" : "rgb(55, 55, 63)"
+      },
+      container: {
+        center: true,
+      }
     },
   },
   plugins: [],

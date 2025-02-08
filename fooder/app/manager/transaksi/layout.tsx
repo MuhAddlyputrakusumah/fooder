@@ -12,9 +12,9 @@ type PropsLayout = {
 
 const RootLayout = ({ children }: PropsLayout) => {
    return (
-       <ManagerTemplate title="Transaksi" id="Transaksi" menuList={MenuList}>
-           {children}
-       </ManagerTemplate>
+      <ManagerTemplate title="Transaksi" id="Transaksi" menuList={MenuList}>
+         {children}
+      </ManagerTemplate>
    )
 }
 
