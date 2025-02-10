@@ -146,7 +146,7 @@ const DashboardPage = () => {
                                                     </div>
                                                 </div>
                                                 <h1 className="font-medium text-xl text-abu">{items.title}</h1>
-                                                <p className="font-normal text-sm text-background2">{items.sub}</p>
+                                                <p className="font-normal text-sm text-abu">{items.sub}</p>
                                             </div>
                                         </div>
                                     )

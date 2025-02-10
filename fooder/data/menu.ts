@@ -4,7 +4,10 @@ import Img3 from '@/public/image/menu/menu-item-3.png'
 import Img4 from '@/public/image/menu/menu-item-4.png'
 import Img5 from '@/public/image/menu/menu-item-5.png'
 import Img6 from '@/public/image/menu/menu-item-6.png'
-import Img7 from '@/public/image/menu/menu-item-7.png'
+import Img7 from '@/public/image/menu/minuman-item-1.png'
+import Img8 from '@/public/image/menu/minuman-item-2.png'
+import Img9 from '@/public/image/menu/minuman-item-3.png'
+// import Img10 from '@/public/image/menu/minuman-item-4.png'
 
 export interface dataMenu {
     id: number;
@@ -69,8 +72,32 @@ export const menu: dataMenu[] = [
         id: 7,
         img: Img7,
         name: "Sweet Tropica",
-        price: "$9.95",
+        price: "$10.3",
         deskripsi: "Lorem, deren, trataro, filede, nerada",
         category: "minuman"
     },
+    {
+        id: 8,
+        img: Img8,
+        name: "Green Apple",
+        price: "$12.16",
+        deskripsi: "Lorem, deren, trataro, filede, nerada",
+        category: "minuman"
+    },
+    {
+        id: 9,
+        img: Img9,
+        name: "Boba Sugar",
+        price: "$12.5",
+        deskripsi: "Lorem, deren, trataro, filede, nerada",
+        category: "minuman"
+    },
+    // {
+    //     id: 10,
+    //     img: Img10,
+    //     name: "Sweet Tropica",
+    //     price: "$9.95",
+    //     deskripsi: "Lorem, deren, trataro, filede, nerada",
+    //     category: "minuman"
+    // },
 ]

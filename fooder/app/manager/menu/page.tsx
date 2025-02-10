@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { menu } from "../../../data/transaksi";
+import { menu } from "../../../data/menu";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 
@@ -17,7 +17,7 @@ function DashboardPage() {
 
     return (
         <>
-            <div className='h-[1500px] container'>
+            <div className='h-[3000px] container'>
                 <div className="py-10 space-y-6">
                     <h1 className="font-normal text-base text-abu text-center">Our Menu</h1>
                     <h1 className="font-amatic font-medium text-5xl text-center">Check Our  <span className="text-primary">Yummy Menu</span></h1>
