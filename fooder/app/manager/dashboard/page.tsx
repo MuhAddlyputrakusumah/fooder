@@ -10,7 +10,7 @@ import { FaCheckCircle } from "react-icons/fa";
 const DashboardPage = () => {
     return (
         <>
-            <div className="container">
+            <div className="">
                 <div className="bg-background2 w-full">
                     <div className="flex justify-evenly items-center py-10">
                         <div className="space-y-4">

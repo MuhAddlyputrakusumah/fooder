@@ -44,6 +44,9 @@ function DashboardPage() {
             .map(([id, { count, price }]) => `Item ${id}: ${count} x $${price} = $${count * price}`)
             .join("\n");
         alert(`Pesanan Anda:\n${orderDetails}\n\nTotal Semua: $${totalOrderAmount.toLocaleString()}\n\nTerima kasih telah memesan!`);
+
+        // Reset quantities setelah order
+        setQuantities({});
         setOrderPlaced(true);
     };
 
