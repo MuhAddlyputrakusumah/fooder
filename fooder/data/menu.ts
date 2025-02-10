@@ -4,6 +4,7 @@ import Img3 from '@/public/image/menu/menu-item-3.png'
 import Img4 from '@/public/image/menu/menu-item-4.png'
 import Img5 from '@/public/image/menu/menu-item-5.png'
 import Img6 from '@/public/image/menu/menu-item-6.png'
+import Img7 from '@/public/image/menu/menu-item-7.png'
 
 export interface dataMenu {
     id: number;
@@ -63,5 +64,13 @@ export const menu: dataMenu[] = [
         price: "$9.95",
         deskripsi: "Lorem, deren, trataro, filede, nerada",
         category: "makanan"
+    },
+    {
+        id: 7,
+        img: Img7,
+        name: "Sweet Tropica",
+        price: "$9.95",
+        deskripsi: "Lorem, deren, trataro, filede, nerada",
+        category: "minuman"
     },
 ]
